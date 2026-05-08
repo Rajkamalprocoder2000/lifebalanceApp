@@ -48,6 +48,46 @@ Or with Expo:
 npx expo start
 ```
 
+## Project Structure
+
+```text
+lifebalanceApp/
+├── App.tsx
+├── app.json
+├── babel.config.js
+├── metro.config.js
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── docs/
+│   └── screenshots/
+│       ├── 1000039252.jpeg
+│       ├── 1000039253.jpeg
+│       ├── 1000039254.jpeg
+│       └── ...
+└── android/
+    ├── app/
+    │   ├── build.gradle
+    │   ├── proguard-rules.pro
+    │   └── src/
+    │       └── main/
+    │           ├── AndroidManifest.xml
+    │           ├── java/com/anonymous/lifebalancemobile/
+    │           │   ├── MainActivity.kt
+    │           │   ├── MainApplication.kt
+    │           │   ├── LifeBalanceNativeModule.kt
+    │           │   ├── LifeBalanceCallScreeningService.kt
+    │           │   ├── LifeBalanceNotificationListenerService.kt
+    │           │   ├── LifeBalanceReminderReceiver.kt
+    │           │   └── LifeBalanceVoiceRecordingService.kt
+    │           └── res/
+    ├── build.gradle
+    ├── gradle.properties
+    ├── gradlew
+    ├── gradlew.bat
+    └── settings.gradle
+```
+
 ## Included
 
 - Dark LifeBalance dashboard with mode cards and status pills
