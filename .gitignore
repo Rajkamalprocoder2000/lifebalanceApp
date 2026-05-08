@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/app/debug.keystore
+ios/build/
+
+# Local Gradle / Android caches
+.gradle-cache/
+.gradle-cache-short/
+.android-home/
+
+# Logs and local test artifacts
+*.log
+*.err
+*.tmp
+*.db
+*.xml
+/*-device.png
+/*screen*.png
+/android-test.png
+/app-screen-device.png
+/after-test-tap*.png
+/office*.png
+/reminder*.png
+/rest*.png
+/todo*.png
+/window_dump.xml
+/lb-ui*.xml
+
+# Environment / editor
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Package manager noise
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
